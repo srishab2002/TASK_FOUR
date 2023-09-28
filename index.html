@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FORM</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <section class="section">
+        <p class="heading">My Feedback Form </p>
+        <label class="topic" for="name">NAME</label>
+        <input class="spacedown" type="text" id="name" placeholder="Name"><br>
+        <label class="topic" for="email">EMAIL</label>
+        <input class="spacedown" type="email" id="email" placeholder="xyz@example.com"><br>
+        <label class="topic" for="password">PASSWORD</label>
+        <input class="spacedown" type="password" id="password" placeholder="XXXXXX">
+
+        <p class="spaceup topic">Please check all the emotions that apply to you:</p>
+        <input type="checkbox" id="angry">
+        <label for="angry">ANGRY</label><br>
+        <input type="checkbox" id="sad">
+        <label for="sad">SAD</label><br>
+        <input type="checkbox" id="happy">
+        <label for="happy">HAPPY</label><br>
+        <input type="checkbox" id="ambivalent">
+        <label for="ambivalent">AMBIVALENT</label><br>
+
+        <p class="spaceup topic">How satisfied were you with our service?</p>
+        <input type="radio" id="verysatisfied">
+        <label for="verysatisfied">Very Satisfied</label><br>
+        <input type="radio" id="satisfied">
+        <label for="satisfied">Satisfied</label><br>
+        <input type="radio" id="didn'tcare">
+        <label for="didn'tcare">Didn't Care</label><br>
+        <input type="radio" id="dissatisfied">
+        <label for="dissatisfied">Dissatisfied</label><br>
+        <input type="radio" id="verydissatisfied">
+        <label for="verydissatisfied">Very Dissatisfied</label><br>
+
+        <div class="spaceup"><label class="topic" for="comments">Further comments:</label>
+        <textarea id="comments" rows="5"></textarea></div><br>
+
+        <div class="spaceup"><label class="topic" for="biodata">Bio Data:</label>
+        <input type="text" id="biodata">
+        <input type="file" id="biodata"></div><br>
+
+        <div class="spacedown"><label class="topic" for="locationvisited">Location visited</label>
+        <select id="locationvisited">
+            <option>Select Location</option>
+            <option>CHENNAI</option>
+            <option>TNAGAR</option>
+        </select></div><br>
+
+        <button class="topic" type="submit">SUBMIT</button>
+    </section>
+    
+</body>
+</html>
